@@ -12,5 +12,5 @@ search:
 
 server:
   secret_key: "temporary-placeholder-change-this"
-  limiter: true
+  limiter: false
   public_instance: false
