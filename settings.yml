@@ -1,8 +1,9 @@
+
 use_default_settings: true
 
 general:
-  instance_name: "PigBunn Search"
   debug: false
+  instance_name: "PigBunn Search"
 
 search:
   formats:
@@ -10,6 +11,6 @@ search:
     - json
 
 server:
-  secret_key: "CHANGE-ME-IN-RENDER"
+  secret_key: "temporary-placeholder-change-this"
   limiter: true
   public_instance: false
