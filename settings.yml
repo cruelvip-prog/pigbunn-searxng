@@ -1,5 +1,9 @@
 
-use_default_settings: true
+use_default_settings:
+  engines:
+    keep_only:
+      - bing
+      - yahoo
 
 general:
   debug: false
@@ -10,7 +14,12 @@ search:
     - html
     - json
 
+engines:
+  - name: bing
+    disabled: false
+  - name: yahoo
+    disabled: false
+
 server:
-  secret_key: "temporary-placeholder-change-this"
   limiter: false
   public_instance: false
